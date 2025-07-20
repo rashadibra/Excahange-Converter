@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <h2>EXCHANGE CONVERTER</h2>
+      <form id="mainBody">
+        <div>
+         <label style="color: white; font-size: large;">ENTER AMOUNT</label>
+         <input style="margin-top: 5px;background-color: #fff;" id="amountInp" /></div>
+        <div>
+         <div >
+          <label for="" style="color: white;font-size: medium;">FROM</label>
+           <select name="" id="firstSection">
+            <option value=""></option>
+          </select>
+         </div>
+          <button
+          id="exchangeBtn"
+            style="
+            margin-top: 20px;
+              background: none;
+              border: none;
+              cursor: pointer;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <i style="display: flex; align-items: center; transform: rotate(180deg); "
+              ><img src="./images/exchangeicon2.png" style="width: 35px" alt=""
+            /></i>
+          </button>
+         <div>
+            <label for="" style="color: white;font-size: medium;">TO</label>
+           <select name="" id="secondSection">
+             <option value=""></option>
+          </select>
+         </div>
+        </div>
+      </form>
+      <div id="answerDiv">
+        <label for="" style="color: white; font-size: larger;">RESULT</label>
+        <input type="text" disabled style="background-color: rgb(255, 255, 255);">
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

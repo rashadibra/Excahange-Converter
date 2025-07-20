@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("./images/bgc2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.153);
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+#mainBody {
+  padding: 20px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form > div {
+  width: 100%;
+}
+form > div:nth-child(2) {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  align-items: center;
+  gap: 5px;
+  margin: 25px 0;
+}
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.144);
+}
+#main h2 {
+  position: absolute;
+  white-space: nowrap;
+  top: -40px;
+  left: 50%;
+  padding: 5px;
+  transform: translate(-50%);
+  border-radius: 10px 10px 0 0;
+  color: white;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+#main > div:nth-child(1) {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+#amountInp {
+  padding: 8px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  border-radius: 5px;
+  width: 100%;
+  font-size: large;
+}
+#answerDiv {
+  padding: 0 20px;
+}
+#answerDiv input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+}
