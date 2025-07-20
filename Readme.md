@@ -4,7 +4,7 @@
 
 - İstifadəçi daxil etdiyi məbləği seçilmiş valyutalar arasında çevirə bilər.
 - Giriş və çıxış üçün input sahələri.
-- İki valyuta arasında dəyişmək üçün ikonlu düymə.
+- İki valyutanın yerlərini dəyişmək üçün ikonlu düymə.
 - Blur fon və modern UI dizayn.
 - Mobil cihazlara uyğun responsive dizayn.
 
